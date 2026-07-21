@@ -287,6 +287,14 @@ section.tinted { background: var(--surface-tint); }
   gap: 26px;
   margin-top: 32px;
 }
+/* Fixed 4-up grid for series with exactly 4 titles, so the last card never
+   wraps to an orphaned row: shrinks to fit on desktop, 2x2 on tablet/mobile. */
+.book-grid--quad {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 720px) {
+  .book-grid--quad { grid-template-columns: repeat(2, 1fr); }
+}
 .book-card {
   background: var(--surface);
   border: 1px solid var(--border);
