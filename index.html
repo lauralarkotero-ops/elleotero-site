@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elle Otero | Post-Apocalyptic &amp; Speculative Fiction Author</title>
+<meta name="description" content="Elle Otero writes post-apocalyptic and speculative fiction, including the In Caves &amp; Catacombs series and the upcoming Efrenen Sea series, By Scion and Sea.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="announcement-bar">
+  Sign up for Elle's mailing list for news, freebies, and giveaways &mdash; <a href="contact.html">get updates</a>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">Elle Otero</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav" onclick="const n=document.getElementById('main-nav'); const open=n.classList.toggle('open'); this.setAttribute('aria-expanded', open);">&#9776;</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="/" class="active">Home</a>
+      <a href="books.html">Books</a>
+      <a href="about.html">About the Author</a>
+      <a href="contact.html">Contact</a>
+      <a href="news.html">News &amp; Blog</a>
+      <a href="merch.html" class="merch-btn">Merch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+
+<section class="hero">
+  <div class="container">
+    <p class="hero-eyebrow">The countdown begins for the release of Elle Otero's next novel</p>
+    <h1>By Scion and Sea</h1>
+    <a class="btn outline" href="books.html#by-scion-and-sea">Learn more</a>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="card-grid">
+      <div class="card">
+        <img class="card-cover" src="assets/cover-the-cave.jpg" alt="The Cave book cover">
+        <h3>In Caves &amp; Catacombs</h3>
+        <p class="kicker" style="text-transform:uppercase;font-size:0.8rem;letter-spacing:0.06em;color:var(--ink-soft);">A modern apocalyptic novella series</p>
+        <p>Four survivors, one collapsing world. Follow Lindsay, Damian, April, and Maggie as a global pandemic and nuclear fallout reshape the California coast &mdash; and the people who remain.</p>
+        <a href="books.html">Read the series &rarr;</a>
+      </div>
+      <div class="card">
+        <img class="card-cover" src="assets/cover-by-scion-and-sea.jpg" alt="By Scion and Sea book cover">
+        <h3>By Scion and Sea</h3>
+        <p class="kicker" style="text-transform:uppercase;font-size:0.8rem;letter-spacing:0.06em;color:var(--ink-soft);">The Efrenen Sea series &mdash; coming soon</p>
+        <p>Two hundred years after the fall, the ocean-dwelling Merfolk and the underground survivors of the Sunlands collide in a new post-apocalyptic saga set in the year 2505.</p>
+        <a href="contact.html">Sign up for release updates &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tinted">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <img class="author-photo" src="assets/author-photo.jpg" alt="Elle Otero, author photo">
+      </div>
+      <div>
+        <h2>About the author</h2>
+        <p>Elle Otero grew up on the central coast of California and now lives with her husband and daughter in Monterey, where she draws inspiration for her writing. In addition to her Amazon titles, her work has been published in various literary magazines, and she holds a Ph.D. in Instructional Technology Leadership.</p>
+        <a href="about.html">More about Elle &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>News &amp; Blog</h2>
+    <p>Want updates about the series, or to hear when the next novel launches? Check out the blog for general updates and sneak peeks.</p>
+    <div class="card-grid">
+      <div class="card">
+        <p class="blog-date">October 1, 2023</p>
+        <h3 style="font-size:1.1rem;">2023 is almost over&hellip;</h3>
+        <a href="news.html#2023-is-almost-over">Read more &rarr;</a>
+      </div>
+      <div class="card">
+        <p class="blog-date">March 5, 2022</p>
+        <h3 style="font-size:1.1rem;">Hello, 2022. Here's to new beginnings!</h3>
+        <a href="news.html#hello-2022">Read more &rarr;</a>
+      </div>
+      <div class="card">
+        <p class="blog-date">May 26, 2021</p>
+        <h3 style="font-size:1.1rem;">Upcoming Release: The Cave</h3>
+        <a href="news.html#upcoming-release-the-cave">Read more &rarr;</a>
+      </div>
+    </div>
+    <p style="margin-top:24px;"><a href="news.html">See all posts &rarr;</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="social-icons">
+      <a href="mailto:elle@elleotero.com" aria-label="Email Elle">&#9993;</a>
+      <a href="https://www.instagram.com/elleoteroauthor/" target="_blank" rel="noopener">Instagram<span class="visually-hidden"> (opens in new tab)</span></a>
+    </div>
+    <p class="fine-print">&copy; <span id="year"></span> Elle Otero</p>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

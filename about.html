@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About the Author | Elle Otero</title>
+<meta name="description" content="Elle Otero grew up on the central coast of California and writes post-apocalyptic and speculative fiction, including the In Caves & Catacombs series.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="announcement-bar">
+  Sign up for Elle's mailing list for news, freebies, and giveaways &mdash; <a href="contact.html">get updates</a>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">Elle Otero</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav" onclick="const n=document.getElementById('main-nav'); const open=n.classList.toggle('open'); this.setAttribute('aria-expanded', open);">&#9776;</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="/">Home</a>
+      <a href="books.html">Books</a>
+      <a href="about.html" class="active">About the Author</a>
+      <a href="contact.html">Contact</a>
+      <a href="news.html">News &amp; Blog</a>
+      <a href="merch.html" class="merch-btn">Merch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+
+<section class="hero plain">
+  <div class="container">
+    <h1>About Elle Otero</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <blockquote class="excerpt">
+      &ldquo;Maggie turned on the flashlight, pointing it at the ground. She forced herself to pull the screen door open with shaking hands. The hinges screamed. The air inside rushed out, washing over her body and she gagged, slapping her hand over her nose and mouth. Then there was a creaking sound overhead. She pointed the flashlight up.&rdquo;
+      <cite>&mdash; excerpt from &ldquo;The Cave&rdquo;</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section class="tinted">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <img class="author-photo" src="assets/author-photo.jpg" alt="Elle Otero, author photo. Photo credit: Ashley Beem Photography">
+        <p style="text-align:center;color:var(--ink-soft);font-size:0.85rem;margin-top:10px;"><em>Photo credit: Ashley Beem Photography</em></p>
+      </div>
+      <div>
+        <h2>About Elle Otero</h2>
+        <p>Elle Otero grew up on the central coast of California and now lives with her husband and daughter in Monterey, California, where she draws inspiration for her writing.</p>
+        <p>In addition to her Amazon titles, Elle's writing has been published in various literary magazines. She holds a Ph.D. in Instructional Technology Leadership, and when she's not learning, teaching, or writing, she enjoys spending time in her garden and at the beach with her family.</p>
+        <p>She welcomes comments from her readers through social media, and you can subscribe to the <a href="contact.html">newsletter</a> for regular updates and freebies. And if you haven't already, jump in and read her work now on Amazon &mdash; it's free with Kindle Unlimited! <a href="https://www.amazon.com/Elle-Otero/e/B01M6E1JQD" target="_blank" rel="noopener">Browse her titles<span class="visually-hidden"> (opens in new tab)</span></a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width:760px;">
+    <h2>Privacy Policy</h2>
+    <h3>What information does this site collect?</h3>
+    <p>If you choose to provide your email address when signing up for Elle Otero's newsletter, this site will record your email address and any other information you provide. You may unsubscribe at any time. This website may also collect information about visitors, such as browser name, means of connection to the site, and other such information. This site may also use &ldquo;cookies&rdquo; to enhance the visitor experience.</p>
+    <h3>How is this information used and shared?</h3>
+    <p>If you provide your email to subscribe to the newsletter, you will receive the newsletter periodically. Your email will never be sold or shared with spammers, and you will not be subscribed to any other services. If you are a minor, you must have the consent of your parent or guardian to subscribe to the newsletter.</p>
+    <h3>Changes to this policy</h3>
+    <p>Elle Otero may update this privacy policy at any time. A notice about such changes will be posted on this page.</p>
+    <h3>Questions</h3>
+    <p>If you have any questions about this Privacy Policy or anything else on elleotero.com, please email <a href="mailto:elle@elleotero.com">elle@elleotero.com</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="social-icons">
+      <a href="mailto:elle@elleotero.com" aria-label="Email Elle">&#9993;</a>
+      <a href="https://www.instagram.com/elleoteroauthor/" target="_blank" rel="noopener">Instagram<span class="visually-hidden"> (opens in new tab)</span></a>
+    </div>
+    <p class="fine-print">&copy; <span id="year"></span> Elle Otero</p>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
